@@ -1,0 +1,15 @@
+Analysis of VCF: round_1.vcf
+Reference FASTA: Pfalciparum_3D7.fasta
+
+Target contig: NC_004331.3
+Codon 580 genomic positions: (1725260, 1725261, 1725262) (1-based)
+Reference codon (genome): ACA -> T
+
+No variants found overlapping the codon positions.
+
+Possible mutated codons (from VCF SNP alts):
+  REF: ACA -> T   (reference)
+
+Result:
+C580Y NOT FOUND in this VCF.
+No relevant SNPs were present at the middle base (expected G->A) of the codon.

@@ -1,0 +1,22 @@
+# Ignore large data files
+*.fastq
+*.bam
+*.bai
+*.vcf
+*.log
+*.txt
+
+# Ignore environment folders
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore temporary output folders
+SRR26194785/
+round_1/
+pipeline_run
+analyze_output
+
+# Ignore OS files
+.DS_Store
+Thumbs.db

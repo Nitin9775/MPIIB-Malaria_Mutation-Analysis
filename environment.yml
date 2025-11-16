@@ -1,0 +1,20 @@
+name: malaria-k13
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - minimap2>=2.30
+  - samtools>=1.17
+  - bcftools>=1.17
+  - sra-tools
+  - medaka                # ONT polishing/variant-calling tool (optional but useful)
+  - htslib
+  - pysam                 # python access to BAM/VCF (optional, useful for scripts)
+  - matplotlib            # optional: plotting if you add visualization
+  - pandas                # optional: data handling/summary tables
+  - notebook              # optional: if you want to include a notebook
+  - pip:
+      - pyfaidx           # optional: FASTA handling in Python (pip install)
