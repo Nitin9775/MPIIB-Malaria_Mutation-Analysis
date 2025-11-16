@@ -37,7 +37,7 @@ The most important mutation is **C580Y (Cysteine → Tyrosine)**.
 
 
 ## ⚙️ Installation
-git clone https://github.com/Nitin9775/MPIIB-Project.git
+git clone https://github.com/Nitin9775/MPIIB-Malaria_Mutation-Analysis.git
 
 cd MPIIB-Project
 conda env create -f environment.yml
