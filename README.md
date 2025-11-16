@@ -20,20 +20,20 @@ The most important mutation is **C580Y (Cysteine → Tyrosine)**.
 
 ## 📁 Repository Structure
 
-├── pipeline.sh
-├── analyze.py
-├── environment.yml
-├── README.md
-│
-├── data/
-│ └── README.md
-│
-├── example/
-│ ├── example.vcf
-│ └── C580Y_report.txt
-│
-└── docs/
-└── workflow_diagram.png
+###├── pipeline.sh     
+###├── analyze.py       
+###├── environment.yml       
+###├── README.md       
+###│       
+###├── data/          
+###│ └── README.md       
+###│          
+###├── example/           
+###│ ├── example.vcf          
+###│ └── C580Y_report.txt         
+###│           
+###└── docs/            
+###└── workflow_diagram.png          
 
 
 ## ⚙️ Installation
