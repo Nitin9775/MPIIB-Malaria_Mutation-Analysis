@@ -71,11 +71,4 @@ Nitin Sharma
 📧 nitin.20230035@mnnit.ac.in  
 GitHub: https://github.com/Nitin9775
 
-## 📄 License
-MIT License © 2025 Nitin Sharma
-"""
 
-with open("/mnt/data/README.md", "w") as f:
-    f.write(content)
-
-"/mnt/data/README.md created"
