@@ -19,25 +19,25 @@ The most important mutation is **C580Y (Cysteine → Tyrosine)**.
 | Mutant codon | TAT/TAC → Tyrosine (Y) |
 
 ## 📁 Repository Structure
-
-├── pipeline.sh
-├── analyze.py
-├── environment.yml
-├── README.md
-│
-├── data/
-│ └── README.md
-│
-├── example/
-│ ├── example.vcf
-│ └── C580Y_report.txt
-│
-└── docs/
-└── workflow_diagram.png
+    
+├── pipeline.sh     
+├── analyze.py       
+├── environment.yml       
+├── README.md       
+│       
+├── data/          
+│ └── README.md       
+│          
+├── example/           
+│ ├── example.vcf          
+│ └── C580Y_report.txt         
+│           
+└── docs/            
+└── workflow_diagram.png          
 
 
 ## ⚙️ Installation
-git clone https://github.com/YOUR_USERNAME/MPIIB-Project.git
+git clone https://github.com/Nitin9775/MPIIB-Malaria_Mutation-Analysis.git
 
 cd MPIIB-Project
 conda env create -f environment.yml
@@ -71,11 +71,4 @@ Nitin Sharma
 📧 nitin.20230035@mnnit.ac.in  
 GitHub: https://github.com/Nitin9775
 
-## 📄 License
-MIT License © 2025 Nitin Sharma
-"""
 
-with open("/mnt/data/README.md", "w") as f:
-    f.write(content)
-
-"/mnt/data/README.md created"
